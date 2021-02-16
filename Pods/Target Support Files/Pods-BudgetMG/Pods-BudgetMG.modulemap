@@ -1,0 +1,6 @@
+module Pods_BudgetMG {
+  umbrella header "Pods-BudgetMG-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (5.4.1)
+  - GRDB.swift (4.14.0):
+    - GRDB.swift/standard (= 4.14.0)
+  - GRDB.swift/standard (4.14.0)
+  - HandyJSON (5.0.2)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - PKExtensions (1.0.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - GRDB.swift (~> 4.14)
+  - HandyJSON (~> 5.0.2)
+  - Moya (~> 14.0)
+  - PKExtensions (from `https://github.com/psychokines/PKExtensions.git`, branch `optimized`)
+  - SnapKit (~> 5.0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - GRDB.swift
+    - HandyJSON
+    - Moya
+    - SnapKit
+
+EXTERNAL SOURCES:
+  PKExtensions:
+    :branch: optimized
+    :git: https://github.com/psychokines/PKExtensions.git
+
+CHECKOUT OPTIONS:
+  PKExtensions:
+    :commit: 99fbd559ac4c4322162952a4647582f546dfe940
+    :git: https://github.com/psychokines/PKExtensions.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  GRDB.swift: 8cc3ab7c8b8b4ac1761deb8dca4b51c1c9d429f8
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  PKExtensions: 009ed0ecfb0d8aee29a9bab90fdf2013a9c06963
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 9d97f52f51dd8b116f2de7ef8b5f542810972718
+
+COCOAPODS: 1.10.1
